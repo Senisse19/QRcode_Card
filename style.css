@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.qrcodeImg {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#cardTitulo {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#cardParagrafo {
+    opacity: 0.6;
+}
